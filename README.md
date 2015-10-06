@@ -27,7 +27,7 @@ Time spent: 10 hours spent in total
 
 Walkthrough of all user stories:
 
-![PreworkGif](https://raw.githubusercontent.com/KayceeACollins/Assignement_2/master/Assignment2.gif)
+![PreworkGif](https://raw.githubusercontent.com/KayceeACollins/Assignment_3/master/Assignment3.gif)
 
 
 
