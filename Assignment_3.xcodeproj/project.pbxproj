@@ -14,6 +14,7 @@
 		3E7166001BBB5EBC00269820 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E7165FE1BBB5EBC00269820 /* LaunchScreen.storyboard */; };
 		3E71660B1BBB5EBC00269820 /* Assignment_3Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E71660A1BBB5EBC00269820 /* Assignment_3Tests.swift */; };
 		3E7166161BBB5EBC00269820 /* Assignment_3UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E7166151BBB5EBC00269820 /* Assignment_3UITests.swift */; };
+		3E7166241BBBA74600269820 /* InboxViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E7166231BBBA74600269820 /* InboxViewController.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		3E7166111BBB5EBC00269820 /* Assignment_3UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Assignment_3UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E7166151BBB5EBC00269820 /* Assignment_3UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assignment_3UITests.swift; sourceTree = "<group>"; };
 		3E7166171BBB5EBC00269820 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3E7166231BBBA74600269820 /* InboxViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InboxViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				3E7165F51BBB5EBC00269820 /* AppDelegate.swift */,
 				3E7165F71BBB5EBC00269820 /* ViewController.swift */,
+				3E7166231BBBA74600269820 /* InboxViewController.swift */,
 				3E7165F91BBB5EBC00269820 /* Main.storyboard */,
 				3E7165FC1BBB5EBC00269820 /* Assets.xcassets */,
 				3E7165FE1BBB5EBC00269820 /* LaunchScreen.storyboard */,
@@ -192,6 +195,7 @@
 				TargetAttributes = {
 					3E7165F11BBB5EBC00269820 = {
 						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = LSYAP6M78B;
 					};
 					3E7166051BBB5EBC00269820 = {
 						CreatedOnToolsVersion = 7.0;
@@ -256,6 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3E7165F81BBB5EBC00269820 /* ViewController.swift in Sources */,
+				3E7166241BBBA74600269820 /* InboxViewController.swift in Sources */,
 				3E7165F61BBB5EBC00269820 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -396,10 +401,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Assignment_3/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "NA.Assignment-3";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -407,10 +415,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Assignment_3/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "NA.Assignment-3";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -481,6 +492,7 @@
 				3E71661C1BBB5EBC00269820 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3E71661D1BBB5EBC00269820 /* Build configuration list for PBXNativeTarget "Assignment_3Tests" */ = {
 			isa = XCConfigurationList;
@@ -489,6 +501,7 @@
 				3E71661F1BBB5EBC00269820 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3E7166201BBB5EBC00269820 /* Build configuration list for PBXNativeTarget "Assignment_3UITests" */ = {
 			isa = XCConfigurationList;
@@ -497,6 +510,7 @@
 				3E7166221BBB5EBC00269820 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
